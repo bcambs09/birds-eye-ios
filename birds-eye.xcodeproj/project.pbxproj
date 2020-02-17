@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F9877BF23FB0BEB00C80196 /* TravelerMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9877BE23FB0BEB00C80196 /* TravelerMapView.swift */; };
+		7F9877C123FB0F0900C80196 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9877C023FB0F0900C80196 /* LocationManager.swift */; };
 		7FA3C39423FA4927007E51C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA3C39323FA4927007E51C8 /* AppDelegate.swift */; };
 		7FA3C39623FA4927007E51C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA3C39523FA4927007E51C8 /* SceneDelegate.swift */; };
 		7FA3C39823FA4927007E51C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA3C39723FA4927007E51C8 /* ContentView.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7F9877BE23FB0BEB00C80196 /* TravelerMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelerMapView.swift; sourceTree = "<group>"; };
+		7F9877C023FB0F0900C80196 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		7FA3C39023FA4927007E51C8 /* birds-eye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "birds-eye.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FA3C39323FA4927007E51C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FA3C39523FA4927007E51C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,9 +106,11 @@
 				7FA3C39323FA4927007E51C8 /* AppDelegate.swift */,
 				7FA3C39523FA4927007E51C8 /* SceneDelegate.swift */,
 				7FA3C39723FA4927007E51C8 /* ContentView.swift */,
-				7FA3C39923FA4928007E51C8 /* Assets.xcassets */,
 				7FA3C39E23FA4928007E51C8 /* LaunchScreen.storyboard */,
+				7F9877BE23FB0BEB00C80196 /* TravelerMapView.swift */,
+				7F9877C023FB0F0900C80196 /* LocationManager.swift */,
 				7FA3C3A123FA4928007E51C8 /* Info.plist */,
+				7FA3C39923FA4928007E51C8 /* Assets.xcassets */,
 				7FA3C39B23FA4928007E51C8 /* Preview Content */,
 			);
 			path = "birds-eye";
@@ -269,6 +275,8 @@
 			files = (
 				7FA3C39423FA4927007E51C8 /* AppDelegate.swift in Sources */,
 				7FA3C39623FA4927007E51C8 /* SceneDelegate.swift in Sources */,
+				7F9877C123FB0F0900C80196 /* LocationManager.swift in Sources */,
+				7F9877BF23FB0BEB00C80196 /* TravelerMapView.swift in Sources */,
 				7FA3C39823FA4927007E51C8 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
